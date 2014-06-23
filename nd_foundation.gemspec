@@ -7,11 +7,11 @@ require "nd/foundation/version"
 Gem::Specification.new do |s|
   s.name        = "nd_foundation"
   s.version     = Nd::Foundation::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of NdFoundation."
-  s.description = "TODO: Description of NdFoundation."
+  s.authors     = ["Alec Hipshear", "Erik Runyon"]
+  s.email       = ["ahipshea@nd.edu", "erunyon@nd.edu"]
+  s.homepage    = "http://github.com/ndwebgroup/nd_foundation"
+  s.summary     = "ND Foundation is a custom Foundation theme for Notre Dame University"
+  s.description = "We are starting to use Foundation for internal web projects at Notre Dame, and having a gem that we can install to bring in foundation and our minimal modifications is handy"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
