@@ -1,2 +1,1 @@
-module NdFoundation
-end
+require 'nd/foundation'
