@@ -6,7 +6,7 @@ This adds a Notre Dame themed Foundation stylesheet to your Rails asset pipeline
 
 In your Gemfile:
 
-    gem 'foundation'
+    gem 'foundation-rails'
     gem 'nd_foundation'
 
 In your application.css.scss:
