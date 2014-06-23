@@ -1,1 +1,1 @@
-Rails.application.config.assets.precompile += %w( foundation.css jquery.js foundation.js )
+# Rails.application.config.assets.precompile += %w( foundation.css jquery.js foundation.js )
