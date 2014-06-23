@@ -1,0 +1,21 @@
+/* Fonts
+   ----------------------------------------------------*/
+@font-face {font-family:NDIcons;
+  src:url('//www.nd.edu/assets/fonts/nd.v2.eot');
+  src:url('//www.nd.edu/assets/fonts/nd.v2.eot?iefix') format('embedded-opentype'),
+      url('//www.nd.edu/assets/fonts/nd.v2.woff') format('woff'),
+      url('//www.nd.edu/assets/fonts/nd.v2.ttf') format('truetype'),
+      url('//www.nd.edu/assets/fonts/nd.v2.svg') format('svg');
+}
+@font-face {font-family:GPC; font-weight:300; font-style:normal;
+  src:url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Book.min.eot');
+  src:url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Book.min.eot?iefix') format('embedded-opentype'),
+      url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Book.min.woff') format('woff'),
+      url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Book.min.ttf') format('truetype');
+}
+@font-face {font-family:GPC; font-weight:400; font-style:normal;
+  src:url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Medium.min.eot');
+  src:url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Medium.min.eot?iefix') format('embedded-opentype'),
+      url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Medium.min.woff') format('woff'),
+      url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Medium.min.ttf') format('truetype');
+}

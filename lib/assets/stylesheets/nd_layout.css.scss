@@ -1,0 +1,72 @@
+@media #{$small-only} {
+  .brandbar ul {padding:0;}
+}
+
+/* Medium
+   ----------------------------------------------------*/
+@media #{$medium-up} {
+  h1 {font-size:2.313em;}
+  h2 {font-size:2.063em;}
+  h3 {font-size:1.75em;}
+  h4 {font-size:1.625em;}
+  h5 {font-size:1.375em;}
+  h6 {font-size:1.125em;}
+
+  blockquote {margin:2em;}
+  blockquote.pull {float:right; width:30%;}
+
+  .site-header {text-align:left;}
+  .brandbar,
+  .titlebar {padding:0;}
+  .dept-nd a {float:left; height:50px;}
+  .dept {border-top:0 none; @include box-shadow(none);}
+  .dept a {float:right; height:50px;}
+  .site-title {float:left; margin:0; padding:0; font-size:2.5em;
+    a {padding:0.65em 0 0.75em;}
+  }
+  .search-input[type="search"] {width:auto; font-size:0.8em;}
+
+  .header-util {float:right; top:2.2em; margin:0; padding:0; text-align:right;
+    form {width:auto; margin:0;}
+    nav {display:block; margin:3px 0;}
+    nav ul {margin:0;}
+    nav li {width:auto; display:block; text-align:right;}
+    nav a {font-size:0.825em; font-weight:normal;}
+    nav a,
+    nav a:hover { display:inline; padding:0; border:0 none; background:none;
+        -webkit-box-shadow:0 0 rgba(255,255,255,0) inset, 0 0 rgba(0,0,0,0);
+           -moz-box-shadow:0 0 rgba(255,255,255,0) inset, 0 0 rgba(0,0,0,0);
+                box-shadow:0 0 rgba(255,255,255,0) inset, 0 0 rgba(0,0,0,0);
+    }
+    nav a:hover { color:#002b5b; text-decoration:underline; text-shadow:0 1px rgba(255,255,255,.9); }
+    .menu-skip,
+    .search-toggle {display:none;}
+  }
+    .search-button {width:23px; height:23px;}
+      .search-button:before {top:0; left:2px; font-size:18px;}
+
+  /* Footer */
+  .site-footer {padding-top:2em; text-align:left;}
+    .contact-info {margin:0;}
+    .address {margin:0;}
+    .ndmark {position:absolute; right:0; top:2em; margin:0;}
+    .site-link {display:block;}
+    .org {display:inline;}
+}
+
+/* 800px
+   ----------------------------------------------------*/
+@media only screen and (min-width:50em) {
+  .dept {display:block;} /* Adjust when the department title appears depending on the width of the graphic */
+}
+
+/* Large
+   ----------------------------------------------------*/
+/*@media only screen and (min-width:60em) {*/
+@media #{$large-up} {
+  .site-content {padding-top:2em;}
+  .site-link,
+  .org,
+  .tel {display:inline-block; *display:inline; *zoom:1; margin:0 1em 0 0;}
+}
+
