@@ -12,9 +12,9 @@ Gem::Specification.new do |s|
   s.homepage    = "http://github.com/ndwebgroup/nd_foundation"
   s.summary     = "ND Foundation is a custom Foundation theme for Notre Dame University"
   s.description = "We are starting to use Foundation for internal web projects at Notre Dame, and having a gem that we can install to bring in foundation and our minimal modifications is handy"
-  s.license     = "MIT"
+  s.license     = "APACHE2"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", ">= 3.2.18"
