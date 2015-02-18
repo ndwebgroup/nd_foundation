@@ -1,21 +1,21 @@
 /* Fonts
    ----------------------------------------------------*/
 @font-face {font-family:NDIcons;
-  src:url('//www.nd.edu/assets/fonts/nd.v2.eot');
-  src:url('//www.nd.edu/assets/fonts/nd.v2.eot?iefix') format('embedded-opentype'),
-      url('//www.nd.edu/assets/fonts/nd.v2.woff') format('woff'),
-      url('//www.nd.edu/assets/fonts/nd.v2.ttf') format('truetype'),
-      url('//www.nd.edu/assets/fonts/nd.v2.svg') format('svg');
+  src:url('//static.nd.edu/fonts/nd/nd.v2.eot');
+  src:url('//static.nd.edu/fonts/nd/nd.v2.eot?iefix') format('embedded-opentype'),
+      url('//static.nd.edu/fonts/nd/nd.v2.woff') format('woff'),
+      url('//static.nd.edu/fonts/nd/nd.v2.ttf') format('truetype'),
+      url('//static.nd.edu/fonts/nd/nd.v2.svg') format('svg');
 }
 @font-face {font-family:GPC; font-weight:300; font-style:normal;
-  src:url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Book.min.eot');
-  src:url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Book.min.eot?iefix') format('embedded-opentype'),
-      url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Book.min.woff') format('woff'),
-      url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Book.min.ttf') format('truetype');
+  src:url('//static.nd.edu/fonts/gp-min/gpc-book.eot');
+  src:url('//static.nd.edu/fonts/gp-min/gpc-book.eot?iefix') format('embedded-opentype'),
+      url('//static.nd.edu/fonts/gp-min/gpc-book.woff') format('woff'),
+      url('//static.nd.edu/fonts/gp-min/gpc-book.ttf') format('truetype');
 }
 @font-face {font-family:GPC; font-weight:400; font-style:normal;
-  src:url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Medium.min.eot');
-  src:url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Medium.min.eot?iefix') format('embedded-opentype'),
-      url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Medium.min.woff') format('woff'),
-      url('//www.nd.edu/assets/fonts/GalaxiePolarisCondensed-Medium.min.ttf') format('truetype');
+  src:url('//static.nd.edu/fonts/gp-min/gpc-medium.eot');
+  src:url('//static.nd.edu/fonts/gp-min/gpc-medium.eot?iefix') format('embedded-opentype'),
+      url('//static.nd.edu/fonts/gp-min/gpc-medium.woff') format('woff'),
+      url('//static.nd.edu/fonts/gp-min/gpc-medium.ttf') format('truetype');
 }
