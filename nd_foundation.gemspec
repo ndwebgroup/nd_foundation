@@ -14,11 +14,10 @@ Gem::Specification.new do |s|
   s.description = "We are starting to use Foundation for internal web projects at Notre Dame, and having a gem that we can install to bring in foundation and our minimal modifications is handy"
   s.license     = "APACHE2"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,config,db,lib,vendor}/**/*", "LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", ">= 3.2.18"
   s.add_dependency "foundation-rails"
-
-  s.add_development_dependency "sqlite3"
+  s.add_dependency "sass-rails", '~> 5.0.0'
 end
