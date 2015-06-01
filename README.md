@@ -1,6 +1,6 @@
 # ND::Foundation
 
-This adds a Notre Dame themed Foundation stylesheet to your Rails asset pipeline.
+This adds a Notre Dame themed Foundation stylesheet to your Rails asset pipeline. Additionaly this gem includes a generator to build a layout file you can use that implements a basic ND layout using the Foundation framework.
 
 ## Installation
 
@@ -9,10 +9,36 @@ In your Gemfile:
     gem 'foundation-rails'
     gem 'nd_foundation'
 
-In your application.css.scss:
+## Installing the Layout
 
-    // Your settings here...
-    $department: ooit;
-    // This will automatically pull in foundation.css.scss
-    @import 'nd_foundation';
+Once you have run bundle install, you have access to the generator.
+
+To add a ND themed layout file, run:
+
+>rails g nd:foundation:install
+
+or add your department code:
+
+>rails g nd:foundation:install ooit
+
+This is do the foloowing:
+
+* create nd.html.erb in the layouts folder
+* create _nd_footer.html.erb partial
+* create _nd_header.html.erb partial
+* add a rule to the assets.rb initializer allowing you to precomplile the assets in the vendor directory
+* add an overrides stylesheet to app/assets/stylesheets
+* add the require directives to application.css to include both the nd_foundations and overrides stylesheets
+* if you pass in a department, it will use that to select the correct brand bar image
+
+## Altering the Layout
+
+Once you have run the generator the first chance you need to make is to add
+
+>layout 'nd'
+
+in any controllers that need to inherit the new layout.
+
+After that, you will want to open both the header and footer partials and update any content that is specific to your department
+like address, department name, links, phone, etc.
 
