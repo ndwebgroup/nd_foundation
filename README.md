@@ -9,17 +9,19 @@ In your Gemfile:
     gem 'foundation-rails'
     gem 'nd_foundation'
 
+*Note: This gem will require sass-rails 5.0.0 to work with the latest version of Foundation.*
+
 ## Generating the Layout
 
 Once you have run bundle install, you have access to the generator.
 
 To add a ND themed layout file, run:
 
->rails g nd:foundation:install
+    rails g nd:foundation:install
 
 or run it while adding your department code:
 
->rails g nd:foundation:install ooit
+    rails g nd:foundation:install ooit
 
 This is do the following:
 
@@ -35,7 +37,7 @@ This is do the following:
 
 Once you have run the generator the first change you need to make is to add
 
->layout 'nd'
+    layout 'nd'
 
 at the top of any controllers that need to inherit the new layout.
 
