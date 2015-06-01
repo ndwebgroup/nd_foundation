@@ -4,7 +4,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8" />
-    <title>FOUNDRY</title>
+    <title>ND Foundation</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="apple-mobile-web-app-title" content="">
@@ -20,31 +20,14 @@
   </head>
 
   <body>
-
     <nav class="skip-links">
       <ul>
         <li><a href="#content" accesskey="C" title="Skip to content = C">Skip To Content</a></li>
         <li><a href="#nav" accesskey="S" title="Skip to navigation = S">Skip To Navigation</a></li>
       </ul>
     </nav>
-    <header id="header" role="banner" class="site-header">
-      <nav class="brandbar theme-bb-blue">
-        <div class="row">
-          <ul class="large-12 columns">
-            <li class="dept-nd"><a href="http://www.nd.edu">University <i>of</i> Notre Dame</a></li>
-            <li class="dept dept-current"><a href="http://opac.nd.edu">Office <i>of</i> Public Affairs and Communications</a></li>
-          </ul>
-        </div>
-      </nav>
-      <div class="titlebar theme-tb-gold">
-        <div class="row">
-          <div class="large-12 columns">
-            <h1 class="site-title"><a href="/" accesskey="H">Foundry</a></h1>
-          </div>
-        </div>
-      </div>
-    </header>
 
+    <%= render 'layouts/nd_header' %>
 
     <div class="row">
       <div class="large-12 columns">
@@ -54,29 +37,7 @@
       </div>
     </div>
 
-    <footer id="footer" class="site-footer" role="contentinfo">
-      <div class="row collapse">
-        <div class="large-12 columns footer-inner">
-          <div class="vcard">
-            <p class="copyright  org">
-              <a href="http://www.nd.edu/copyright/">Copyright</a> &copy; <%= Time.now.year %>
-              <a href="http://www.nd.edu/" class="org">University of Notre Dame</a>
-            </p>
-            <p class="contact-info url fn adr">
-              <a href="/" class="site-link url fn">Foundry</a>
-              <span class="address"><span class="street-address">501 Grace Hall</span>, <span class="locality">Notre Dame</span>, <span class="region" title="Indiana">IN</span> <span class="postal-code">46556</span></span>
-              <!--
-              <span class="tel"><span class="type">Phone</span> 574-631-5000</span>
-              <span class="tel fax"><span class="type">Fax</span> 574-631-5000</span>
-              <span class="email"><a href="mailto:email@nd.edu">email@nd.edu</a></span>
-              -->
-            </p>
-            <a href="http://www.nd.edu/" class="ndmark"><img src="//static.nd.edu/images/marks/blue/ndmark300.png" alt="University of Notre Dame"></a>
-          </div>
-        </div>
-      </div>
-    </footer>
-
+    <%= render 'layouts/nd_footer' %>
 
   </body>
 </html>
