@@ -23,14 +23,14 @@ or run it while adding your department code:
 
     rails g nd:foundation:install ooit
 
-This is do the following:
+This will do the following:
 
-* create *nd.html.erb* in the layouts folder
-* create *_nd_footer.html.erb* partial
-* create *_nd_header.html.erb* partial
+* create a *nd.html.erb* layout file in the layouts folder
+* create a *_nd_footer.html.erb* partial in the layouts folder
+* create a *_nd_header.html.erb* partial in the layouts folder
 * add a rule to the *assets.rb* initializer allowing you to precomplile the assets in the vendor directory
-* add an overrides stylesheet in the *app/assets/stylesheets* directory
-* add the require directives to *application.css* to include both the nd_foundations and overrides stylesheets
+* add an *overrides* stylesheet in the *app/assets/stylesheets* directory
+* add the require directives to *application.css* to include both the *nd_foundations* and *overrides* stylesheets
 * if you pass in a department, it will use that to select the correct brand bar image
 
 ## Altering the Layout
@@ -44,3 +44,4 @@ at the top of any controllers that need to inherit the new layout.
 After that, you will want to open both the header and footer partials and update any content that is specific to your department
 like address, department name, links, phone, etc.
 
+Enjoy!
