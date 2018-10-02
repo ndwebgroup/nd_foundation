@@ -2,6 +2,10 @@
 
 This adds a Notre Dame themed Foundation stylesheet to your Rails asset pipeline. Additionaly this gem includes a generator to build a layout file you can use that implements a basic ND layout using the Foundation framework.
 
+## NOTICE
+
+This theme is no longer maintained or updated. Please use the [Bootstrap repository](https://github.com/ndwebgroup/nd_bootstrap).
+
 ## Installation
 
 In your Gemfile:
